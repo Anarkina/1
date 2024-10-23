@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Heading } from '@chakra-ui/react';
-import RegisterForm from './components/RegisterForm';
+import RegisterForm from 'features/Register/components/RegisterForm';
+
 
 const RegisterPage = () => {
   return (

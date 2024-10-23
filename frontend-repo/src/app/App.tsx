@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import RegisterPage from '../features/Register';
-
+import RegisterPage from 'features/Register/RegisterPage';
 const App = () => (
   <Router>
     <Routes>

@@ -8,7 +8,6 @@ const App = () => (
   <ChakraProvider>
     <Router>
       <Routes>
-        {/* Если путь "/" открыт, перенаправляем на "/register" */}
         <Route path="/" element={<Navigate to="/register" />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
